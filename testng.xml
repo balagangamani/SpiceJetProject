@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="test.TC002_SignUp"/>
+      <class name="test.TC001_NavigatingToSpiceJet"/>
+      <class name="test.TC005_NewFlightRoundTrip"/>
+      <class name="test.TC006_SelectFlights"/>
+      <class name="test.TC003_LoginWithEmail"/>
+      <class name="test.TC007_ValidateFieldsOnBookingPage"/>
+      <class name="test.TC004_NewFlightOneWay"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
