@@ -25,6 +25,17 @@
           <include name="start"/>
         </methods>
       </class> <!-- test.TC006_SelectFlights -->
+      <class name="test.TC003_LoginWithEmail">
+        <methods>
+          <include name="tc_03_loginToSpiceJetApp" invocation-numbers="0 2"/>
+          <include name="close"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+          <include name="testDetails"/>
+          <include name="start"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- test.TC003_LoginWithEmail -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

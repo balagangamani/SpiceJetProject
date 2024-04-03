@@ -46,7 +46,7 @@ public class ProjectSpecificationMethod extends Utility {
 
 	@AfterMethod
 	public void close() {
-	//	driver.close();
+		driver.close();
 	}
 
 	@DataProvider(name = "getFromExcel")
